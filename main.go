@@ -40,7 +40,7 @@ func main() {
 		}
 	}
 
-	filename := subject + ".csv"
+	filename := "subjects/" + subject + ".csv"
 
 	csvFile, err := os.Open(filename)
 
